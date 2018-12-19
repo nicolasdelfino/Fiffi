@@ -46,12 +46,12 @@ namespace Fiffi
 
 	}
 
-	internal class EventMetaData
+	public class EventMetaData
 	{
-		internal static readonly object CorrelationId;
-		internal static readonly object EventId;
-		internal static readonly object StreamName;
-		internal static readonly object AggregateName;
-		internal static readonly object Version;
+		public static readonly object CorrelationId;
+		public static readonly object EventId;
+		public static readonly object StreamName;
+		public static readonly object AggregateName;
+		public static readonly object Version;
 	}
 }
